@@ -1,0 +1,75 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: times ,serif;
+    color:white;
+    background-color: black;
+}
+.container{
+    max-width: 90rem;
+    margin: 2rem auto;
+    padding: 0px 2rem;
+}
+.header{
+    padding: 2rem;
+    margin: 2rem 1px;
+    text-align: center;
+    font-size: larger;
+}
+.header p{
+    padding: 2rem;
+    font-size: larger;
+}
+.header  .tittle{
+    margin-bottom: 1rem;
+}
+.tribute{
+    display:inline-flex;
+    --grid-template-columns: 2fr , 1fr; 
+     max-width: 100rem;
+    margin: 10px auto;
+    background: white;
+    color: black;
+    align-items: left;
+    padding: 0px 0px 0px 1rem;
+}
+.tribute blockquote{
+   
+    font-size: 3rem;
+    padding: 5rem;
+   text-align: center;
+   
+    
+}
+.tribute img{
+    max-width: 100%;
+   -webkit-transform: scaleX(-1);
+   -moz-transform: scaleX(-1);
+     -o-transform: scaleX(-1);
+     transform: scaleX(-1);
+     display: block;
+     margin-left: auto;
+     width: 40%;
+    
+}
+.Bio{
+    margin: 2rem auto;
+    padding: 0px 0.5rem;
+    max-width: 40rem;
+}
+.Bio >h2{
+    margin-bottom: 1rem;
+    font-size: 3rem;
+    line-height: 1.2;
+}
+.Bio >p{
+    font-size: 1.2rem;
+    line-height: 1.4;
+}
+.Bio > hr{
+    margin-top: 2rem;
+}
+
